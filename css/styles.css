@@ -69,7 +69,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #ea9085;
+  color: #04d361;
 }
 
 a:hover {
@@ -92,6 +92,10 @@ a:hover {
 .site-subtitle, .site-title {
   color: #f9f9f9;
   text-align: center;
+}
+
+.site-subtitle {
+  color: #04d361;
 }
 
 .site-title {
@@ -149,8 +153,8 @@ a:hover {
 
 .sobre .avatar img {
   border-radius: 50%;
-  padding: 5px;
-  background-color: #ea9085;
+  padding: 7px;
+  background-color: #04d361;
 }
 
 .portfolio .grid {
@@ -178,7 +182,7 @@ a:hover {
 }
 
 .img-portfolio {
-  height: 120px;
+  height: 100px;
   object-fit: contain;
 }
 
