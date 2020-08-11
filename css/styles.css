@@ -6,10 +6,10 @@
 }
 
 body {
-  background-image: url('../img/background.png');
+  background-image: url('../img/backgroundteste.png');
   background-size: auto 100vh;
   height: 100vh;
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 .menu {
-  background-color: #222831;
+  background-color: #2d3042;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -69,7 +69,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #04d361;
+  color: #e5e5e5;
 }
 
 a:hover {
@@ -90,12 +90,12 @@ a:hover {
 }
 
 .site-subtitle, .site-title {
-  color: #f9f9f9;
+  color: #fdfeff;
   text-align: center;
 }
 
 .site-subtitle {
-  color: #04d361;
+  color: #59ffa8;
 }
 
 .site-title {
@@ -127,14 +127,14 @@ a:hover {
 
 .sobre h2, .contato h2, .portfolio h2 {
   font-family: 'Source Code Pro', monospace;
-  color: #f9f9f9;
+  color: #e5e5e5;
   margin-bottom: 1.2em;
   font-size: 2em;
 }
 
 .sobre p {
   font-family: 'DM Mono', monospace;
-  color: #ececec;
+  color: #e5e5e5;
   font-weight: bold;
   text-indent: 1.4em;
   margin-bottom: 1.4em;
@@ -149,12 +149,24 @@ a:hover {
   .sobre .avatar {
     float: right;
   }
+  .sobre .avatar img {
+    border-radius: 50%;
+    height: 400px;
+    padding: 7px;
+    background-color: #59ffa8;
+  }
 }
 
-.sobre .avatar img {
-  border-radius: 50%;
-  padding: 7px;
-  background-color: #04d361;
+@media (max-width: 600px) {
+  .sobre .avatar {
+    float: right;
+  }
+  .sobre .avatar img {
+    border-radius: 50%;
+    height: 200px;
+    padding: 7px;
+    background-color: #59ffa8;
+  }
 }
 
 .portfolio .grid {
